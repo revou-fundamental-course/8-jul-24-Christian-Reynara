@@ -1,0 +1,85 @@
+/* Ini css */
+
+.main-title { 
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content {
+    flex:auto ;
+    padding: 12px;
+}
+
+.input-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form {
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 8px;
+}
+.button {
+    height: 32px;
+    border-radius: 8px;
+}
+
+.submit {
+    background-color: aquamarine;
+    border: 2px solid aqua;
+}
+
+.reset {
+    background-color:white ;
+    border: 2px solid aqua;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=number]:focus {
+    border: 3px solid #555;
+}
+
+.result-section {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.table-bmi {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.acc-tombol {
+    background-color: #5c5efd;
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width:425px) {
+    main {
+        flex-direction: column;
+    }
+
+    .result-section {
+        display: block !important; 
+    
+    }
+}
